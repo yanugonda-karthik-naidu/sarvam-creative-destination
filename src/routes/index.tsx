@@ -151,7 +151,7 @@ function Hero() {
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
+            transition={{ duration: 1.1, ease: EASE, delay: 0.2 }}
             className="kicker mb-6"
           >
             Hyderabad · Est. Creative Destination
@@ -159,7 +159,7 @@ function Hero() {
           <motion.h1
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1], delay: 0.35 }}
+            transition={{ duration: 1.2, ease: EASE, delay: 0.35 }}
             className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-[88px] leading-[1.02] max-w-5xl"
           >
             Where Every Frame <em className="text-gold not-italic">Tells</em> A Story
@@ -167,7 +167,7 @@ function Hero() {
           <motion.p
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1], delay: 0.55 }}
+            transition={{ duration: 1.2, ease: EASE, delay: 0.55 }}
             className="mt-8 max-w-2xl text-lg text-white/75 leading-relaxed"
           >
             Hyderabad's premier destination for pre-wedding, fashion, commercial
