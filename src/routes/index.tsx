@@ -1,4 +1,3 @@
-import { createFileRoute } from "@tanstack/react-router";
 import type { Variants } from "framer-motion";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
@@ -32,10 +31,6 @@ import g6 from "@/assets/gallery-6.jpg";
 import locRoyal from "@/assets/loc-royal.jpg";
 import locGarden from "@/assets/loc-garden.jpg";
 import locTraditional from "@/assets/loc-traditional.jpg";
-
-export const Route = createFileRoute("/")({
-  component: Index,
-});
 
 const EASE = [0.22, 1, 0.36, 1] as const;
 
@@ -796,7 +791,7 @@ function Footer() {
   );
 }
 
-function Index() {
+export default function Index() {
   return (
     <main className="bg-bg text-white overflow-x-hidden">
       <Navbar />

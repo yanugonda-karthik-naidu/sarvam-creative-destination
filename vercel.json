@@ -2,11 +2,6 @@
   "$schema": "https://openapi.vercel.sh/schemas/v2/json-schema.json",
   "buildCommand": "npm run build",
   "installCommand": "npm install",
-  "framework": null,
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/api/index.mjs"
-    }
-  ]
+  "framework": "vite",
+  "outputDirectory": "dist"
 }
